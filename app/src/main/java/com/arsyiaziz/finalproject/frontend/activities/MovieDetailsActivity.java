@@ -25,7 +25,7 @@ import com.arsyiaziz.finalproject.backend.local.FavouritesHelper;
 import com.arsyiaziz.finalproject.backend.models.MovieModel;
 import com.arsyiaziz.finalproject.backend.models.VideoModel;
 import com.arsyiaziz.finalproject.backend.api.MovieRepository;
-import com.arsyiaziz.finalproject.frontend.adapters.CreditsAdapter;
+import com.arsyiaziz.finalproject.frontend.adapters.CreditAdapter;
 import com.arsyiaziz.finalproject.misc.Constants;
 import com.arsyiaziz.finalproject.misc.HelperFunctions;
 import com.arsyiaziz.finalproject.misc.ImageSize;
@@ -175,8 +175,8 @@ public class MovieDetailsActivity extends AppCompatActivity {
         tvGenres.setText(movie.getGenres());
 
         if (movie.getCredits().size() > 0) {
-            CreditsAdapter creditsAdapter = new CreditsAdapter(movie.getCredits());
-            rvCredits.setAdapter(creditsAdapter);
+            CreditAdapter creditAdapter = new CreditAdapter(movie.getCredits());
+            rvCredits.setAdapter(creditAdapter);
         } else {
             HelperFunctions.hideView(llCredits);
         }

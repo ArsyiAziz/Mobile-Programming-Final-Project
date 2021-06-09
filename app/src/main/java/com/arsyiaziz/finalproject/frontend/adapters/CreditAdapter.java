@@ -18,10 +18,10 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
-public class CreditsAdapter extends RecyclerView.Adapter<CreditsAdapter.ViewHolder> {
+public class CreditAdapter extends RecyclerView.Adapter<CreditAdapter.ViewHolder> {
     private final List<CreditModel> creditsList;
 
-    public CreditsAdapter(List<CreditModel> creditsList) {
+    public CreditAdapter(List<CreditModel> creditsList) {
         this.creditsList = creditsList;
     }
 

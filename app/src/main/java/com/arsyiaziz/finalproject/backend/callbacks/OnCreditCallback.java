@@ -4,7 +4,7 @@ import com.arsyiaziz.finalproject.backend.models.CreditModel;
 
 import java.util.List;
 
-public interface OnCreditsCallback {
+public interface OnCreditCallback {
     void onSuccess(List<CreditModel> creditsList, String msg);
     void onFailure(String msg);
 }
