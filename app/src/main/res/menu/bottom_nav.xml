@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_now_playing"
+        android:icon="@drawable/ic_baseline_local_play_24"
+        android:title="@string/now_playing"/>
+    <item
+        android:id="@+id/item_upcoming"
+        android:icon="@drawable/ic_baseline_date_range_24"
+        android:title="@string/upcoming" />
+    <item
+        android:id="@+id/item_popular"
+        android:icon="@drawable/ic_baseline_star_24"
+        android:title="@string/popular" />
+    <item
+        android:id="@+id/item_favourites"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/favourites" />
+</menu>

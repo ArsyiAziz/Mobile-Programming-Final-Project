@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="web_orange">#ffab00</color>
+    <color name="gray_chateau">#96A0A6</color>
+    <color name="black">#000000</color>
+    <color name="outer_space">#263238</color>
+    <color name="mustard">#ffdd4b</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gold">#FFD700</color>
+</resources>

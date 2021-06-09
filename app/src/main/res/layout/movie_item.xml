@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_poster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="5dp">
+        <ImageView
+            android:id="@+id/iv_poster"
+            android:layout_width="150dp"
+            android:layout_height="225dp"
+            android:scaleType="fitXY"
+            android:src="@color/black"
+            android:contentDescription="@string/movie_poster"/>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tv_title"
+        android:layout_marginTop="5dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/movie_placeholder"
+        android:ellipsize="end"
+        android:textAlignment="center"
+        android:lines="2"
+        android:textAppearance="?attr/textAppearanceHeadline6"
+        android:layout_below="@id/cv_poster"/>
+</RelativeLayout>
