@@ -60,12 +60,12 @@
                     android:id="@+id/tv_title"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textSize="24sp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
                     android:textColor="@color/white"
                     android:text="@string/movie_placeholder"
                     android:ellipsize="end"
-                    android:maxLines="1" />
+                    android:maxLines="2" />
                 <TextView
                     android:id="@+id/tv_release_year"
                     android:layout_width="wrap_content"
@@ -78,6 +78,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/genre_placeholder"
+                    android:maxLines="1"
+                    android:ellipsize="end"
                     android:textColor="@color/white"/>
                 <TextView
                     android:id="@+id/tv_runtime"
